@@ -24,7 +24,6 @@ def sum_of_values(dictionary):
 
 class Converter:
 
-
     def __init__(self, directory):
         # Percentage of how many observations train set consist of from all observations
         # The rest of observations builds the test set
@@ -55,6 +54,9 @@ class Converter:
     def determine_labels(self):
         return [str(dir) for dir in os.listdir(self.directory_path)]
 
+    def get_labels(self):
+        return self.labels
+
     def get_num_of_classes(self):
         return self.num_of_classes
 
@@ -65,6 +67,23 @@ class Converter:
     def get_test_set(self):
         # Test set consists of (100-x)% of all observations
         return self.test_set
+
+    def convert_text(self, text):
+        # Proportion map
+        proportions = self.empty_proportion_map.copy()
+
+        # Iterate over each letter of text
+        for letter in text:
+            # Values set of proportions map will correspond to attribute values of observation
+            # Divide numbers of occurrences by number of all letters
+            if letter in proportions.keys():
+                proportions[letter] += 1
+
+        num = sum_of_values(proportions)
+        values = [v / num for v in proportions.values()]
+
+        # return vector of values
+        return values
 
     def convert_observations(self):
 
