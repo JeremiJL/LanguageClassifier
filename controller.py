@@ -45,7 +45,7 @@ class Controller:
         # Find the greatest value
         max_val = max(result_label_map.keys())
         # Return corresponding label with this value
-        print(result_label_map)
+        # print(result_label_map)
         return result_label_map.get(max_val)
 
     def accuracy(self):

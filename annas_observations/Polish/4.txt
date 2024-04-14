@@ -1,0 +1,36 @@
+Poliploidalność – posiadanie przez dany organizm więcej niż dwóch kompletnych zestawów chromosomów. Organizm taki nazywa się poliploidalnym,
+poliploidem lub polieuploidem. Takie zwiększenie ilości zestawów chromosomów dzieje się w trakcie tworzenia gamet, gdy po podziale chromosomów nie 
+nastąpi podział komórki.
+
+Gatunki z potrójnym zestawem chromosomów nazywa się triploidami, z poczwórnym tetraploidami itd. Aby uniknąć pomyłek ustalono, że podstawową haploidalną 
+liczbę chromosomów oznacza się jako x, natomiast aktualną haploidalną liczbę jako n. Na przykład heksaploidalna pszenica zwyczajna (Triticium aestivum) 
+zachowuje się jak diploid (jest funkcjonalnym diploidem) i ma liczbę diploidalną 2n = 6x, haploidalną n = 3x.
+
+Dla zwierząt poliploidyzacja ma zwykle skutki letalne (śmiertelne) lub jest powodem występowania poważnych zaburzeń. Istniejące nieliczne gatunki 
+poliploidalne są hermafrodytami (np. niektóre dżdżownice i płazińce) lub są partenogenetyczne (niektóre chrząszcze, ćmy, skorupiaki, ryby i salamandry). 
+Znane są gatunki ryb, u których efektem poliploidalności jest liczba chromosomów przekraczająca 400[1]. Zwierzęta partenogenetyczne zwykle podwajają swoją 
+liczbę chromosomów poprzez endomitozę (replikacja bez podziału tuż przez mejozą).
+
+Istnieją przesłanki, iż poliploidyzacja miała miejsce w linii rozwojowej strunowców.
+
+Rośliny są bardziej tolerancyjne, jeśli chodzi o liczbę chromosomów, i poliploidyzacja jest bardzo powszechna wśród nich. Według różnych szacunków od 
+35%[2] do 47%[3] wszystkich roślin kwiatowych ma liczbę chromosomów będącą wielokrotnością najniższej liczby występującej w danym rodzaju. Około 75% 
+roślin naczyniowych odziedziczyło najprawdopodobniej zwielokrotnione zestawy chromosomów od dawnego, poliploidalnego przodka[2]. Oszacowano, że 15% 
+przypadków specjacji u okrytonasiennych i 31% takich przypadków u paproci towarzyszył wzrost ploidalności[4]. Podwojenie genomu jest częstym zdarzeniem 
+w ewolucji roślin, po którym zwykle następuje masowe wyciszanie i eliminacja genów[5]. We florze środkowej Europy mniej więcej połowa roślin jest 
+naturalnymi lub wytworzonymi przez człowieka poliploidami (można tego dokonać np. poprzez zastosowanie kolchicyny, która niszczy wrzeciono kariokinetyczne, 
+uniemożliwiając podział komórki). Jako przykłady można podać pszenżyto, ziemniaki, wiele roślin ozdobnych i traw, drzewa owocowe. Odznaczają się one 
+większymi rozmiarami, większą żywotnością i odpornością (dają więc także większe plony). Triploidy roślin wykazują różny stopień płodności. Triploidalne 
+rośliny arbuza wykazują całkowitą sterylność, znacznie zmniejszoną płodność stwierdzono u roślin z rodzaju Datura i kukurydzy, tylko lekko obniżoną płodność 
+zaobserwowano u topoli, buraka cukrowego i Melandrium. Płodne są również triploidy Arabidopsis thaliana. Od lat 30 XX wieku triploidy roślin wykorzystywane 
+są jako źródło aneuploidów wykazujących trisomię wszystkich chromosomów[6]. Lomatia tasmanica jest w pełni sterylnym triploidem o liczbie chromosomów 2n=33. 
+Roślina rozmnaża się jednak na drodze wegetatywnej. Szacuje się, że jako klon istnieje od co najmniej 43 600 lat[7].
+
+Jednak w przypadku roślin możliwość krzyżowania jest bardziej skomplikowana. Nowy poliploid może dawać płodne potomstwo, gdy jego gamety połączą się z gametami 
+o tym samym stopniu ploidalności. Dlatego też poliploidyzacja jest u roślin ważnym mechanizmem specjacji. Na przykład jeśli tetraploid wytworzy gamety o liczbie 
+chromosomów 2x i połączą się one z gametami monoploidalnymi x, potomstwo będzie triploidem (3x). W takim wypadku płodność może odzyskać jedynie gdy powstaną w 
+nim komórki heksaploidalne (na skutek nieprawidłowej mitozy), które to komórki będą w stanie tworzyć żywotne gamety. Wiele roślin jest zdolnych do rozmnażania 
+wegetatywnego, które pozwala im „przeczekać” do czasu przywrócenia płodności. Rośliny mają także przewagę ze względu na brak komórek szlaku płciowego (z każdej 
+komórki zdolnej do podziału może powstać klon, u którego w gametoficie może dojść do podwojenia ilości chromosomów i odzyskania płodności).[potrzebny przypis]
+
+Poliploidalność jest zjawiskiem odmiennym od aneuploidalności, która charakteryzuje się niewłaściwą liczbą pojedynczych chromosomów.

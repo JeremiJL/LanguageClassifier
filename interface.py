@@ -15,11 +15,10 @@ controller = Controller(data_directory, learning_rate, num_epochs)
 # Print accuracies
 print("Accuracy of network: ", controller.accuracy())
 
-print("\n")
 # Loop
 running = True
 while running:
-    option = input("a) text classification\nb) recalculate\ne) exit\nOption : ")
+    option = input("a) text classification\nb) recalculate\nc) exit\nOption : ")
     match option:
         case "a":
             text = input("Enter your text: ")
