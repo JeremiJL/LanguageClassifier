@@ -109,10 +109,10 @@ class Perceptron:
 
     def initialize_starter_weights(self):
         # threshold - also known as bias
-        bias = 1.5
+        bias = -0.5
         # weights = [(random() + 1) / 10 for _ in range(self.dimensions)]
         # weights = [float((random() + 1) / 10.) for _ in range(self.dimensions)]
-        weights = [0.1 for _ in range(self.dimensions)]
+        weights = [1 for _ in range(self.dimensions)]
         weights.insert(0, bias)
         return weights
 
