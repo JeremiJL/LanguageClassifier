@@ -5,8 +5,8 @@ print("Welcome to Language Classifier!")
 # Learning rate request
 learning_rate = float(input("Provide learning rate: "))
 # Data request
-# data_directory = input("Provide data directory path: ")
-data_directory = "merged_observations"
+data_directory = input("Provide data directory path: ")
+# data_directory = "observations"
 # Create network
 network = Network(data_directory, learning_rate)
 

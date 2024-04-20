@@ -6,7 +6,7 @@ from converter import Converter
 
 class Network:
 
-    def __init__(self, data_dir, learning_rate=0.1):
+    def __init__(self, data_dir, learning_rate=0.01):
         # Learning rate of perceptrons
         self.learning_rate = learning_rate
         # Converter responsible for converting ASCII text into vectors
