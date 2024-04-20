@@ -1,5 +1,4 @@
-from converter import Converter
-from controller import Controller
+from network import Network
 
 # Basic interface
 # Learning rate request
@@ -10,10 +9,10 @@ num_epochs = int(input("Provide number of epochs: "))
 data_directory = input("Provide data directory path: ")
 
 # Create network
-controller = Controller(data_directory, learning_rate, num_epochs)
+network = Network(data_directory, learning_rate)
 
 # Print accuracies
-print("Accuracy of network: ", controller.accuracy())
+print("Accuracy of network: ", network.accuracy())
 
 # Loop
 running = True
@@ -22,12 +21,12 @@ while running:
     match option:
         case "a":
             text = input("Enter your text: ")
-            vector = controller.get_converter().convert_text(text)
-            print("Result of classification :", controller.classify(vector))
+            vector = network.get_converter().convert_text(text)
+            print("Result of classification :", network.classify(vector))
         case "b":
-            controller = Controller(data_directory, learning_rate, num_epochs)
+            network = Network(data_directory, learning_rate, num_epochs)
             # Print accuracies
-            print("Accuracy of network: ", controller.accuracy())
+            print("Accuracy of network: ", network.accuracy())
         case "c":
             running = False
 
