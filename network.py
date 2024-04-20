@@ -1,3 +1,4 @@
+import math
 from random import random, shuffle
 
 from converter import Converter
@@ -107,6 +108,7 @@ class Network:
                     # positive delta rule
                     self.perceptron_map[target].delta_update_weights(1, self.learning_rate, observation.values)
 
+
             # divide the accuracy over number of train set
             self.accuracy = float(accuracy_of_iteration / len(self.train_test))
             # Inform about epoch number and accuracy
@@ -119,8 +121,8 @@ class Network:
             print(perceptron.label, " - weights :", perceptron.weights)
 
 
-# local architecture
 class Perceptron:
+    # local architecture
     def __init__(self, label, dimensions):
         # class of this perceptron
         self.label = label
@@ -145,3 +147,15 @@ class Perceptron:
     def delta_update_weights(self, direction, learning_rate, vector):
         for v, i in zip(vector, range(len(vector))):
             self.weights[i] += direction * learning_rate * v
+
+    def normalize_vector(self, vector):
+        # compute vector euclidean distance
+        vector_length = 0
+        for i in vector:
+            vector_length += math.pow(i,2)
+
+        # compute square root of length
+        vector_length = math.sqrt(vector_length)
+        # update vector values
+        vector = [v/vector_length for v in vector]
+        return vector
