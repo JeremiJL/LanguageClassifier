@@ -5,8 +5,8 @@ print("Welcome to Language Classifier!")
 # Learning rate request
 learning_rate = float(input("Provide learning rate: "))
 # Data request
-data_directory = input("Provide data directory path: ")
-
+# data_directory = input("Provide data directory path: ")
+data_directory = "merged_observations"
 # Create network
 network = Network(data_directory, learning_rate)
 
@@ -21,8 +21,6 @@ while running:
             print("Result of classification :", network.classify(text))
         case "b":
             network = Network(data_directory, learning_rate)
-            # Print accuracies
-            print("Accuracy of network: ", network.accuracy())
         case "c":
             running = False
 
