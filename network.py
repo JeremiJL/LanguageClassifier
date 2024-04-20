@@ -5,7 +5,7 @@ from converter import Converter
 
 class Network:
 
-    def __init__(self, data_dir, learning_rate=0.05):
+    def __init__(self, data_dir, learning_rate=0.1):
         # Learning rate of perceptrons
         self.learning_rate = learning_rate
         # Converter responsible for converting ASCII text into vectors
@@ -57,6 +57,9 @@ class Network:
 
     def train(self):
 
+        # Keep record of epochs
+        epoch = 0
+
         # Train the neural network until accuracy reaches 100%
         while self.accuracy != 1:
 
@@ -105,7 +108,15 @@ class Network:
                     self.perceptron_map[target].delta_update_weights(1, self.learning_rate, observation.values)
 
             # divide the accuracy over number of train set
-            self.accuracy = accuracy_of_iteration / len(self.train_test)
+            self.accuracy = float(accuracy_of_iteration / len(self.train_test))
+            # Inform about epoch number and accuracy
+            epoch += 1
+            print("Epoch :", str(epoch), " - Accuracy :", str(self.accuracy * 100) + "%")
+
+    def test_print(self):
+        print("Weights changes :")
+        for perceptron in self.perceptron_map.values():
+            print(perceptron.label, " - weights :", perceptron.weights)
 
 
 # local architecture
@@ -120,7 +131,7 @@ class Perceptron:
 
     def initialize_weights(self):
         # threshold - also known as bias
-        bias = 0.5
+        bias = 1
         weights = [(random() + 1) / 10 for _ in range(self.dimensions)]
         weights.insert(0, bias)
         return weights

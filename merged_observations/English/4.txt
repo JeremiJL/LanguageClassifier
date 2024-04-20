@@ -1,0 +1,42 @@
+Linear B is a syllabic script that was used for writing in Mycenaean Greek, the earliest attested form of the Greek language. The script predates the Greek alphabet by 
+several centuries, the earliest known examples dating to around 1400 BC. It is adapted from the earlier Linear A, an undeciphered script potentially used for writing the 
+Minoan language, as is the later Cypriot syllabary, which also recorded Greek. Linear B, found mainly in the palace archives at Knossos, Kydonia, Pylos, Thebes and Mycenae, 
+disappeared with the fall of Mycenaean civilization during the Late Bronze Age collapse. The succeeding period, known as the Greek Dark Ages, provides no evidence of the use 
+of writing.
+
+Linear B was deciphered in 1952 by English architect and self-taught linguist Michael Ventris based on the research of American classicist Alice Kober. It is the only Bronze 
+Age Aegean script to have been deciphered, with Linear A, Cypro-Minoan, and Cretan hieroglyphic remaining unreadable.
+
+Linear B consists of around 87 syllabic signs and over 100 ideographic signs. These ideograms or "signifying" signs symbolize objects or commodities. They have no phonetic 
+value and are never used as word signs in writing a sentence.
+
+The application of Linear B appears to have been confined to administrative contexts. In all the thousands of clay tablets, a relatively small number of different people's 
+handwriting have been detected: 45 in Pylos (west coast of the Peloponnese, in Southern Greece) and 66 in Knossos (Crete). Once the palaces were destroyed, the script 
+disappeared.
+
+Linear B has roughly 200 signs, divided into syllabic signs with phonetic values and ideograms with semantic values. The representations and naming of these signs have been 
+standardized by a series of international colloquia starting in Paris in 1956. After the third meeting in 1961 at the Wingspread Conference Center in Racine, Wisconsin, a 
+standard proposed primarily by Emmett L. Bennett, Jr. became known as the Wingspread Convention, which was adopted by a new organization, the Comité International Permanent 
+des Études Mycéniennes (CIPEM: Permanent International Committee of Mycenaean Studies), affiliated in 1970 by the fifth colloquium with UNESCO. Colloquia continue: the 13th 
+occurred in 2010 in Paris.
+
+Many of the signs are identical or similar to those in Linear A; however, Linear A encodes an as yet unknown language, and it is uncertain whether similar signs had the same 
+phonetic values.
+
+Linear B also uses a large number of ideograms. They express:
+- the type of object concerned (e.g. a cow, wool, a spear),
+- a unit of measure.
+
+They have no phonetic value and are never used as word signs in writing a sentence, unlike Japanese kanji or Hittite cuneiform. Ideograms are typically at the end of a line 
+before a number and appear to signify to which object the number applies. Many of the values remain unknown or disputed. Some commodities such as cloth and containers are 
+divided into many different categories represented by distinct ideograms. Livestock may be marked with respect to sex.
+
+The numerical references for the ideograms were originally devised by Ventris and Bennett and divided into functional groups corresponding to the breakdown of Bennett's 
+index. The groups are numbered beginning 100, 110, 120 etc., with some provision of spare numbers for future additions; the official CIPEM numberings used today are based on 
+Ventris and Bennett's numbering, with the provision that three or four letter codes (written in small capitals), based on Latin words that seemed relevant at the time, are 
+used where the meanings are known and agreed. Unicode (as of version 5.0) encodes 123 Linear B ideograms.
+
+The ideograms are symbols, not pictures of the objects in question; for example, one tablet records a tripod with missing legs, but the ideogram used is of a tripod with 
+three legs. In modern transcriptions of Linear B tablets, it is typically convenient to represent an ideogram by its Latin or English name or by an abbreviation of the Latin 
+name. Ventris and Chadwick generally used English; Bennett, Latin. Neither the English nor the Latin can be relied upon as an accurate name of the object; in fact, the 
+identification of some of the more obscure objects is a matter of exegesis.

@@ -27,7 +27,7 @@ class Converter:
     def __init__(self, directory):
         # Percentage of how many observations train set consist of from all observations
         # The rest of observations builds the test set
-        self.proportion_of_train_set = 0.90
+        self.proportion_of_train_set = 1
         # Ascii : proportion map
         self.empty_proportion_map = create_proportion_map()
         # Observations_data directory
